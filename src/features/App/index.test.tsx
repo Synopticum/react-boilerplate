@@ -1,5 +1,5 @@
-describe('Проверка работы App', () => {
-  test('Проверяет корректность работы тестов', () => {
+describe('Check if test engine is working', () => {
+  test('Sample test', () => {
     expect(false).toBeFalsy();
   });
 });

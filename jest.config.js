@@ -2,7 +2,6 @@ module.exports = {
   displayName: 'client-side',
   preset: 'ts-jest',
   testEnvironment: 'jsdom',
-  setupFilesAfterEnv: ['<rootDir>setupTests.js'],
   moduleNameMapper: {
     '\\.(jpg|jpeg|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$':
       '<rootDir>/src/hooks/api/test/fileMock.js',

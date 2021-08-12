@@ -1,8 +1,8 @@
 import { computed, makeObservable, observable } from 'mobx';
 import { BaseStore } from 'src/stores';
 
-const DEFAULT_HEADER_TEXT = 'default header text (global store)';
-const DEFAULT_FOOTER_TEXT = 'default footer text (global store)';
+export const DEFAULT_HEADER_TEXT = 'default header text (global store)';
+export const DEFAULT_FOOTER_TEXT = 'default footer text (global store)';
 
 export default class GlobalStore implements BaseStore {
   headerText: string = DEFAULT_HEADER_TEXT;
